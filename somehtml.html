@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fun Question</title>
+  <link rel="stylesheet" href="./somecss.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Are you gay?</h1>
+    <button onclick="handleAnswer('yes')">Yes</button>
+    <button onclick="handleAnswer('no')">No</button>
+
+    <div id="popup" class="popup hidden">
+      <p id="popupText"></p>
+      <button id="tryAgainBtn" class="hidden" onclick="reset()">Try Again</button>
+    </div>
+  </div>
+
+  <script src="./somejs.js"></script>
+</body>
+</html>
