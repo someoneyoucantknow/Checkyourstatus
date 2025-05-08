@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fffbe6;
+    padding-top: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .popup {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d63384;
+    transition: font-size 0.5s ease-in-out;
+  }
+  
+  .hidden {
+    display: none;
+  }
